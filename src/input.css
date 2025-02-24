@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'BricolageMed';
+    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'BricolageLight';
+    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'BricolageReg';
+    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'BricolageSemibold';
+    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-SemiBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'BricolageBold';
+    src: url(../Fonts/BricolageGrotesque_24pt_SemiCondensed-Bold.ttf) format('truetype');
+}

@@ -14,7 +14,7 @@
 @font-face {
     font-family: "Bricolage Grotesque";
     src: url("../Fonts/BricolageGrotesque[opsz\,wdth\,wght].ttf") format("truetype");
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
 }
 @font-face {

@@ -1,91 +1,23 @@
 @import "tailwindcss";
 
-:root{
-    --text-primery: #0D0C10
-}
 
+@theme{
+    --font-Inter: "Inter" , "sans-serif";
+    --font-bricolage: "Bricolage Grotesque","sans-serif";
+    --shadow-btn:  0px 0px 1px 1px rgba(232,230,240,1);
+    --shadow-box: 0 20px 56px rgba(69,65,113,0.16);
+    --color-primery: #0D0C10;
+} 
 
 @font-face {
-    font-family: 'BricolageMed';
-    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-Medium.ttf) format('truetype');
+    font-family: "Bricolage Grotesque";
+    src: url("../Fonts/BricolageGrotesque[opsz\,wdth\,wght].ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'BricolageLight';
-    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-Light.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'BricolageReg';
-    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-Regular.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'BricolageSemibold';
-    src: url(../Fonts/BricolageGrotesque_24pt_Condensed-SemiBold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'BricolageBold';
-    src: url(../Fonts/BricolageGrotesque_24pt_SemiCondensed-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: "InterBold";
-    src: url(../Fonts/Inter_18pt-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: "InterSemi";
-    src: url(../Fonts/Inter_18pt-SemiBold.ttf) format('truetype');
-}
-@font-face {
-    font-family: "InterMed";
-    src: url(../Fonts/Inter_18pt-Medium.ttf) format('truetype');
-}
-@font-face {
-    font-family: "InterReg";
-    src: url(../Fonts/Inter_18pt-Regular.ttf) format('truetype');
-}
-@font-face {
-    font-family: "InterLight";
-    src: url(../Fonts/Inter_18pt-Light.ttf) format('truetype');
-}
-
-
-.bricolageMed{
-    font-family: "BricolageMed";
-}
-.bricolageReg{
-    font-family: "BricolageReg";
-}
-.bricolageSemi{
-    font-family: "BricolageSemibold";
-}
-.bricolageLight{
-    font-family: "BricolageLight";
-}
-.bricolageBold{
-    font-family: "BricolageBold";
-}
-.interMed{
-    font-family: "InterMed";
-}
-.interReg{
-    font-family: "InterReg";
-}
-.interBold{
-    font-family: "InterBold";
-}
-.interSemi{
-    font-family: "InterSemi";
-}
-.interLight{
-    font-family: "InterLight";
-}
-.text-primery{
-   color: var(--text-primery);
-}
-.bg-primery{
-    background-color: var(--text-primery);
-}
-.btn-shadow{
-    box-shadow: 0px 0px 1px 1px rgba(232,230,240,1);
-}
-.box-shadow{
-    box-shadow: 0 20px 56px rgba(69,65,113,0.16);
+    font-family: "Inter";
+    src: url("../Fonts/InterVariable.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }

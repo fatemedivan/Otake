@@ -4,8 +4,9 @@
 @theme{
     --font-Inter: "Inter" , "sans-serif";
     --font-bricolage: "Bricolage Grotesque","sans-serif";
-    --shadow-btn:  0px 0px 1px 1px rgba(232,230,240,1);
-    --shadow-box: 0 20px 56px rgba(69,65,113,0.16);
+    --shadow-btn:  0px 0px 1px 1px rgb(232,230,240);
+    --shadow-box: 0px 20px 56px rgba(69,65,113,0.16);
+    --shadow-box2: 0px 12px 48px rgba(69,65,113,0.16);
     --color-primery: #0D0C10;
 } 
 

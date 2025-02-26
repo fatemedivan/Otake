@@ -13,13 +13,12 @@
 
 @font-face {
     font-family: "Bricolage Grotesque";
-    src: url("../Fonts/BricolageGrotesque[opsz\,wdth\,wght].ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
+    src: url("../Fonts/BricolageGrotesque10ptCondensed-SemiBold.otf") format("opentype");
 }
 @font-face {
     font-family: "Inter";
     src: url("../Fonts/InterVariable.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+}
+.bg{
+    background: linear-gradient(0deg, rgba(2,173,231,0.5),rgba(2,173,231,0.5));
 }

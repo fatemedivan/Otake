@@ -9,6 +9,7 @@
     --shadow-box2: 0px 12px 48px rgba(69,65,113,0.16);
     --shadow-input : 0px 4px 4px rgba(0,0,0,0.25);
     --color-primery: #0D0C10;
+    --breakpoint-lg-md : 52rem;
     --breakpoint-xs: 30rem;
 } 
 

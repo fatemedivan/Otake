@@ -21,6 +21,3 @@
     font-family: "Inter";
     src: url("../Fonts/InterVariable.ttf") format("truetype");
 }
-.bg{
-    background: linear-gradient(0deg, rgba(2,173,231,0.5),rgba(2,173,231,0.5));
-}

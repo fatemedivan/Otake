@@ -6,7 +6,7 @@ import { setupCounter } from './counter.js'
 document.querySelector('#app').innerHTML = `
   <div>
       <nav class="flex justify-between items-center max-w-[1136px] h-9 mx-auto my-10">
-        <img src="./images/Link - home.png" class="max-xs:w-20" alt="">
+        <img src="/marketing-landing/images/Link - home.png" class="max-xs:w-20" alt="">
         <ul class="sidebar flex justify-between items-center gap-9 font-medium text-[#222222] max-md:text-white max-md:p-3 max-md:z-50 max-md:flex-col max-md:fixed max-md:top-0 max-md:left-0 max-md:bg-primery max-md:text-whitemax-md:p-4 max-md:h-full max-md:justify-start max-md:items-center max-md:hidden">
             <li><a href="">About</a></li>
             <li><a href="">Pricing</a></li>
@@ -62,13 +62,13 @@ document.querySelector('#app').innerHTML = `
             <div class="mt-26 flex gap-3 items-center mb-36 max-lg:mt-14 max-md:justify-center max-md:mb-6 max-md:mt-16">
                     <div class="flex items-center">
                         <div class="bg-white rounded-full max-w-11.5 h-auto border-2 border-[#E8E6F0] overflow-hidden">
-                            <img src="./images/person1.png" alt="">
+                            <img src="/marketing-landing/images/person1.png" alt="">
                         </div>
                         <div class="bg-white rounded-full max-w-11.5 h-auto border-2 border-[#E8E6F0] overflow-hidden -ml-3">
-                            <img src="./images/person2.png" alt="">
+                            <img src="/marketing-landing/images/person2.png" alt="">
                         </div>
                         <div class="bg-white rounded-full max-w-11.5 h-auto border-2 border-[#E8E6F0] overflow-hidden -ml-4">
-                            <img src="./images/person3.png" alt="">
+                            <img src="/marketing-landing/images/person3.png" alt="">
                         </div>
                     </div>
                     <div>
@@ -77,13 +77,13 @@ document.querySelector('#app').innerHTML = `
                     </div>
             </div>
         </div>
-        <img src="./images/shadow1.png" class="rounded-3xl absolute -z-10 right-0 mr-2 max-md:hidden" alt="">
-        <img src="./images/Background wrapper.png" class="right-0 rounded-3xl absolute -z-20 opacity-50 max-md:hidden" alt="">
+        <img src="/marketing-landing/images/shadow1.png" class="rounded-3xl absolute -z-10 right-0 mr-2 max-md:hidden" alt="">
+        <img src="/marketing-landing/images/Background wrapper.png" class="right-0 rounded-3xl absolute -z-20 opacity-50 max-md:hidden" alt="">
         <div class="relative mr-42.5 px-4">
-            <img src="./images/headerimg.png" class="relative max-2xl:left-20 max-w-full h-auto object-contain max-lg:min-w-[420px] max-lg:left-0 max-lg-md:min-w-80 max-md:min-h-40 max-md:min-w-75 max-md:mb-15 max-md:left-20" alt="">
-            <img src="./images/label1.png" class="absolute top-75 -left-10 max-2xl:left-10 max-2xl:top-45 max-2xl:w-60 max-lg:w-40 max-lg:left-30 max-lg:top-55 max-lg-md:left-10 max-lg-md:top-40 max-md:hidden" alt="">
-            <img src="./images/label2.png" class="absolute top-52 left-76 max-2xl:left-70 max-2xl:top-30 max-2xl:w-60 max-lg:w-40 max-lg:left-60 max-lg:top-35 max-lg-md:left-40 max-lg-md:top-25 max-md:hidden" alt="">
-            <img src="./images/cloud.png" class="absolute left-[480px] top-8 max-2xl:left-90 max-2xl:-top-16 max-lg:left-70 max-lg-md:left-50 max-md:hidden" alt="">
+            <img src="/marketing-landing/images/headerimg.png" class="relative max-2xl:left-20 max-w-full h-auto object-contain max-lg:min-w-[420px] max-lg:left-0 max-lg-md:min-w-80 max-md:min-h-40 max-md:min-w-75 max-md:mb-15 max-md:left-20" alt="">
+            <img src="/marketing-landing/images/label1.png" class="absolute top-75 -left-10 max-2xl:left-10 max-2xl:top-45 max-2xl:w-60 max-lg:w-40 max-lg:left-30 max-lg:top-55 max-lg-md:left-10 max-lg-md:top-40 max-md:hidden" alt="">
+            <img src="/marketing-landing/images/label2.png" class="absolute top-52 left-76 max-2xl:left-70 max-2xl:top-30 max-2xl:w-60 max-lg:w-40 max-lg:left-60 max-lg:top-35 max-lg-md:left-40 max-lg-md:top-25 max-md:hidden" alt="">
+            <img src="/marketing-landing/images/cloud.png" class="absolute left-[480px] top-8 max-2xl:left-90 max-2xl:-top-16 max-lg:left-70 max-lg-md:left-50 max-md:hidden" alt="">
         </div>
     </header>
     <main class="max-w-[1424px] mx-auto">
@@ -185,7 +185,7 @@ document.querySelector('#app').innerHTML = `
             </div>
         </section>
         <section class="max-w-[1136px] relative mx-auto mb-54.5 max-md:mb-35 max-sm:mb-25">
-            <img src="./images/shadow3.png" class="absolute z-0" alt="">
+            <img src="/marketing-landing/images/shadow3.png" class="absolute z-0" alt="">
             <div class="relative z-10">
                 <div class="flex flex-col justify-center items-center gap-7">
                     <div class="w-29.5 h-6 rounded-md bg-[#FFE785] text-xs flex justify-center items-center">Product Features</div>
@@ -196,7 +196,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div class="mt-19 flex justify-center items-center gap-5 max-xl:flex-wrap">
                     <div class="max-w-92  shadow-box rounded-3xl px-2 py-3 relative bg-white flex justify-center flex-col items-center mb-12 max-xs:w-70 max-xs:h-[440px] ">
-                        <img src="./images/logo2.1.png" class="absolute -top-10" alt="">
+                        <img src="/marketing-landing/images/logo2.1.png" class="absolute -top-10" alt="">
                         <div class="text-center mx-7 mt-14 max-xs:mt-9">
                             <h3 class="font-bricolage text-2xl leading-9 max-xs:leading-7">Keep on top of project
                                 <br> management.</h3>
@@ -204,10 +204,10 @@ document.querySelector('#app').innerHTML = `
                                 adipiscing elit.</p>
                             <button class="w-78 h-9 rounded-lg shadow-btn text-sm mt-5 max-xs:w-60 max-xs:text-xs">Learn More</button>
                         </div>
-                        <img class="mt-6" src="./images/section2.1.png" alt="">
+                        <img class="mt-6" src="/marketing-landing/images/section2.1.png" alt="">
                     </div>
                     <div class="max-w-92 shadow-box rounded-3xl px-2 py-3 relative bg-white flex justify-center flex-col items-center mb-12 max-xs:w-70 max-xs:h-[440px]">
-                        <img src="./images/logo2.2.png" class="absolute -top-10" alt="">
+                        <img src="/marketing-landing/images/logo2.2.png" class="absolute -top-10" alt="">
                         <div class="text-center mx-7 mt-14 max-xs:mt-9">
                             <h3 class="font-bricolage text-2xl leading-9 max-xs:leading-7">Analyze your business
                                 <br> results in one place.</h3>
@@ -215,10 +215,10 @@ document.querySelector('#app').innerHTML = `
                                 adipiscing elit.</p>
                             <button class="w-78 h-9 rounded-lg shadow-btn text-sm mt-5 max-xs:w-60 max-xs:text-xs">Learn More</button>
                         </div>
-                        <img class="mt-6" src="./images/section2.2.png" alt="">
+                        <img class="mt-6" src="/marketing-landing/images/section2.2.png" alt="">
                     </div>
                     <div class="max-w-92 shadow-box  rounded-3xl px-2 py-3 relative bg-white flex justify-center flex-col items-center mb-12 max-xs:w-70 max-xs:h-[440px]">
-                        <img src="./images/logo2.3.png" class="absolute -top-10" alt="">
+                        <img src="/marketing-landing/images/logo2.3.png" class="absolute -top-10" alt="">
                         <div class="text-center mx-7 mt-14 max-xs:mt-9">
                             <h3 class="font-bricolage text-2xl leading-9 max-xs:leading-7"> Keep track of sales and
                             <br>shipping progress..</h3>
@@ -226,39 +226,39 @@ document.querySelector('#app').innerHTML = `
                                 adipiscing elit.</p>
                             <button class="w-78 h-9 rounded-lg shadow-btn text-sm mt-5 max-xs:w-60 max-xs:text-xs">Learn More</button>
                         </div>
-                        <img class="mt-6" src="./images/section2.3.png" alt="">
+                        <img class="mt-6" src="/marketing-landing/images/section2.3.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
         <section class="max-w-[1136px] mx-auto mb-48 max-md:mb-38">
             <div class="text-center max-w-[574px] h-48 mx-auto mb-19 flex flex-col justify-center items-center">
-                <img src="./images/cloud2.png" alt="">
+                <img src="/marketing-landing/images/cloud2.png" alt="">
                 <h4 class="font-bricolage leading-10 text-3xl mt-6 mb-5 max-xs:text-2xl max-xs:mb-3">Grow your business to the next level.</h4>
                 <p class="leading-6 max-xs:text-sm">Lorem ipsum dolor sit amet, consectetur
                     <br>adipiscing elit. Vivamus non enim lacus</p>
             </div>
             <div class="flex justify-center items-center gap-15 text-center flex-wrap">
                 <div class="flex justify-center items-center flex-col gap-5">
-                    <img src="./images/section3.1.png" alt="">
+                    <img src="/marketing-landing/images/section3.1.png" alt="">
                     <h5 class="font-bricolage text-xl leading-5">User Management</h5>
                     <p class="text-xs leading-5">Lorem ipsum dolor sit amet, consectetur
                         <br>adipiscing elit. Vivamus non enim lacus</p>
                 </div>
                 <div class="flex justify-center items-center flex-col gap-5">
-                    <img src="./images/section3.2.png" alt="">
+                    <img src="/marketing-landing/images/section3.2.png" alt="">
                     <h5 class="font-bricolage text-xl leading-5">Insightful Data Analytics</h5>
                     <p class="text-xs leading-5">Lorem ipsum dolor sit amet, consectetur
                         <br>adipiscing elit. Vivamus non enim lacus</p>
                 </div>
                 <div class="flex justify-center items-center flex-col gap-5">
-                    <img src="./images/section3.3.png" alt="">
+                    <img src="/marketing-landing/images/section3.3.png" alt="">
                     <h5 class="font-bricolage text-xl leading-5">Effortless Integration</h5>
                     <p class="text-xs leading-5">Lorem ipsum dolor sit amet, consectetur
                         <br>adipiscing elit. Vivamus non enim lacus</p>
                 </div>
                 <div class="flex justify-center items-center flex-col gap-5">
-                    <img src="./images/section3.4.png" alt="">
+                    <img src="/marketing-landing/images/section3.4.png" alt="">
                     <h5 class="font-bricolage text-xl leading-5">Robust Security Suite</h5>
                     <p class="text-xs leading-5">Lorem ipsum dolor sit amet, consectetur
                         <br>adipiscing elit. Vivamus non enim lacus</p>
@@ -266,7 +266,7 @@ document.querySelector('#app').innerHTML = `
             </div>
         </section>
         <section class="max-w-[944px] mx-auto flex justify-between items-center relative mb-38 mt-62 max-md:mt-30 max-md:mb-30 max-xs:flex-col">
-            <img src="./images/shadow4.png" class="absolute -z-10 max-xs:top-0" alt="">
+            <img src="/marketing-landing/images/shadow4.png" class="absolute -z-10 max-xs:top-0" alt="">
                 <div class="max-w-92 mr-27.5 px-2 pb-5 rounded-3xl bg-white max-xs:mr-0">
                     <div class="flex items-center gap-19 my-2">
                         <div class="flex justify-center items-center gap-1.5">
@@ -281,7 +281,7 @@ document.querySelector('#app').innerHTML = `
                            <p class="text-[11px] leading-4">otake.com</p>
                         </div>
                     </div>
-                    <img src="./images/background4.png"  alt="">
+                    <img src="/marketing-landing/images/background4.png"  alt="">
                 </div>
                 <div class="max-w-[464px] my-9 relative">
                     <div class="max-w-30 h-6 bg-white shadow-box rounded-md text-primery font-medium text-xs flex justify-center items-center max-xs:mx-auto">Product Features</div>
@@ -290,7 +290,7 @@ document.querySelector('#app').innerHTML = `
                        <br>Vivamus non enim lacus. Nullam congue blandit quam, sit
                        <br>amet scelerisque turpis pellentesque eu.</p>
                     <button class="w-26 h-9 bg-primery text-white rounded-lg text-xs font-medium mt-6.5 max-sm:hidden">Find Out More</button>
-                    <img src="./images/section4.png" class="absolute top-68 right-2 max-md:hidden" alt="">
+                    <img src="/marketing-landing/images/section4.png" class="absolute top-68 right-2 max-md:hidden" alt="">
                     <div class="flex items-center gap-2 mb-3 mt-10 max-sm:mt-6">
                         <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 2.00488C8.39303 2.00488 6.82214 2.4814 5.486 3.37419C4.14985 4.26698 3.10844 5.53593 2.49348 7.02058C1.87852 8.50523 1.71762 10.1389 2.03112 11.715C2.34463 13.2911 3.11846 14.7388 4.25476 15.8751C5.39106 17.0114 6.8388 17.7853 8.4149 18.0988C9.99099 18.4123 11.6247 18.2514 13.1093 17.6364C14.594 17.0215 15.8629 15.9801 16.7557 14.6439C17.6485 13.3078 18.125 11.7369 18.125 10.1299C18.1227 7.97569 17.266 5.91039 15.7427 4.38715C14.2195 2.86391 12.1542 2.00715 10 2.00488ZM13.5672 8.69707L9.19219 13.0721C9.13415 13.1302 9.06522 13.1763 8.98934 13.2078C8.91347 13.2392 8.83214 13.2554 8.75 13.2554C8.66787 13.2554 8.58654 13.2392 8.51067 13.2078C8.43479 13.1763 8.36586 13.1302 8.30782 13.0721L6.43282 11.1971C6.31554 11.0798 6.24966 10.9208 6.24966 10.7549C6.24966 10.589 6.31554 10.43 6.43282 10.3127C6.55009 10.1954 6.70915 10.1295 6.875 10.1295C7.04086 10.1295 7.19992 10.1954 7.31719 10.3127L8.75 11.7463L12.6828 7.81269C12.7409 7.75462 12.8098 7.70856 12.8857 7.67713C12.9616 7.64571 13.0429 7.62953 13.125 7.62953C13.2071 7.62953 13.2884 7.64571 13.3643 7.67713C13.4402 7.70856 13.5091 7.75462 13.5672 7.81269C13.6253 7.87076 13.6713 7.9397 13.7027 8.01557C13.7342 8.09144 13.7504 8.17276 13.7504 8.25488C13.7504 8.337 13.7342 8.41832 13.7027 8.49419C13.6713 8.57006 13.6253 8.639 13.5672 8.69707Z" fill="black"/>
@@ -306,14 +306,14 @@ document.querySelector('#app').innerHTML = `
                 </div>
         </section>
         <section class="max-w-[1424px] mx-auto rounded-3xl bg-primery mb-32 py-30 px-60 relative max-xl:px-30 max-lg:py-15 max-xs:px-15 ">
-            <img src="./images/bg1.png" class="absolute left-0 top-0 h-full" alt="">
+            <img src="/marketing-landing/images/bg1.png" class="absolute left-0 top-0 h-full" alt="">
             <div class="relative z-10">
                 <div class="w-29.5 h-6 rounded-md bg-[#FFE785] text-xs font-medium flex justify-center items-center mx-auto">Product Features</div>
                 <div class="flex justify-center items-center gap-18 max-lg:gap-9">
-                    <img src="./images/sec5.2.png" class="mr-16 max-xs:hidden" alt="">
+                    <img src="/marketing-landing/images/sec5.2.png" class="mr-16 max-xs:hidden" alt="">
                     <h3 class="font-bricolage text-5xl text-white text-center mt-4 max-lg:text-3xl">Hear what our
                         customers have to say</h3>
-                    <img src="./images/sec5.1.png" class="ml-16 max-xs:hidden" alt="">
+                    <img src="/marketing-landing/images/sec5.1.png" class="ml-16 max-xs:hidden" alt="">
                 </div>
                 <div class="flex justify-center items-center gap-4 mt-12 mb-4 flex-wrap">
                     <div class="max-w-[464px] bg-[#17161D] rounded-3xl px-2 pt-2 pb-6">
@@ -516,10 +516,10 @@ document.querySelector('#app').innerHTML = `
                     <p class="leading-6 max-xs:text-sm">Lorem ipsum dolor sit amet, consectetur
                       <br>adipiscing elit. Vivamus non enim lacus.</p>
                 </div>
-                <img src="./images/shadow6.png" class="absolute -z-10 top-10" alt="">
+                <img src="/marketing-landing/images/shadow6.png" class="absolute -z-10 top-10" alt="">
                 <div class="max-w-full flex justify-center items-center gap-4 flex-wrap">
                     <div class="max-w-92 h-full bg-white rounded-3xl px-2 py-6 shadow-box max-xs:w-75">
-                        <img src="./images/Container6.1.png" alt="">
+                        <img src="/marketing-landing/images/Container6.1.png" alt="">
                         <div class="mx-4">
                             <div class="w-17.5 h-6 rounded-md bg-[#F4F3F8] leading-5 font-medium text-xs mt-6 flex justify-center items-center">Shipping</div>
                             <h4 class="font-bricolage text-2xl leading-8 mt-4.5 max-xs:leading-6">Use data analytics to
@@ -530,7 +530,7 @@ document.querySelector('#app').innerHTML = `
                         </div>
                     </div>
                     <div class="max-w-92 h-full bg-white rounded-3xl px-2 py-6 shadow-box max-xs:w-75">
-                        <img src="./images/Container6.2.png" alt="">
+                        <img src="/marketing-landing/images/Container6.2.png" alt="">
                         <div class="mx-4">
                             <div class="flex items-center gap-2">
                                 <div class="w-11.5 h-6 rounded-md bg-[#F4F3F8] leading-5 font-medium text-xs mt-6 flex justify-center items-center">Data</div>
@@ -544,7 +544,7 @@ document.querySelector('#app').innerHTML = `
                         </div>
                     </div>
                     <div class="max-w-92 h-full bg-white rounded-3xl px-2 py-6 shadow-box max-xs:w-75">
-                        <img src="./images/Container6.3.png" alt="">
+                        <img src="/marketing-landing/images/Container6.3.png" alt="">
                         <div class="mx-4">
                             <div class="flex items-center gap-2">
                                 <div class="w-11.5 h-6 rounded-md bg-[#F4F3F8] leading-5 font-medium text-xs mt-6 flex justify-center items-center">Data</div>
@@ -562,9 +562,9 @@ document.querySelector('#app').innerHTML = `
                 </div>
         </section>
         <section class="max-w-[944px] mx-auto bg-primery rounded-4xl text-center text-white relative mb-68 pb-14 max-md:mb-48">
-                <img src="./images/bg2.png" class="absolute max-w-full h-full" alt="">
+                <img src="/marketing-landing/images/bg2.png" class="absolute max-w-full h-full" alt="">
                 <div class="relative z-10 flex flex-col justify-center items-center max-sm:px-5">
-                    <img src="./images/section7.png" class="absolute  -top-10" alt="">
+                    <img src="/marketing-landing/images/section7.png" class="absolute  -top-10" alt="">
                     <h4 class="font-bricolage leading-14 text-5xl pt-26 max-sm:text-4xl max-xs:text-3xl max-xs:pt-18">Get Started With Otake.</h4>
                     <p class="text-[#C8C6D3] leading-6 mt-3 max-sm:text-sm max-xs:line-clamp-1">Explore a new realm of efficiency and success with our cutting-edge SaaS.</p>
                     <div class="flex justify-center items-center gap-5 font-bricolage text-xl mt-6">
@@ -582,14 +582,14 @@ document.querySelector('#app').innerHTML = `
                 </div>
         </section>
         <section class="max-w-[944px] mx-auto relative mb-32">
-                <img src="./images/section8.6.png" class="absolute top-16 right-[936px] max-xl:hidden" alt="">   
+                <img src="/marketing-landing/images/section8.6.png" class="absolute top-16 right-[936px] max-xl:hidden" alt="">   
                 <div class="mb-12 flex justify-center items-center flex-col mx-24 text-center max-xs:mx-12">
                     <div class="w-45.5 h-6 flex justify-center items-center text-xs font-medium rounded-md bg-[#FFE785]">Frequently Asked Questions</div>
                     <h4 class="font-bricolage leading-14.5 text-5xl my-4 max-sm:text-4xl max-sm:leading-9 max-xs:text-3xl">Frequently Asked Questions</h4>
                     <p class="leading-6 max-md:text-sm">All Plans come with a 14-day free trial period.</p>
                 </div>
-                <img src="./images/section8.5.png" class="absolute bottom-27.5 left-[920px] max-xl:hidden" alt="">
-                <img src="./images/shadow8.png" class="absolute -z-10" alt="">
+                <img src="/marketing-landing/images/section8.5.png" class="absolute bottom-27.5 left-[920px] max-xl:hidden" alt="">
+                <img src="/marketing-landing/images/shadow8.png" class="absolute -z-10" alt="">
                 <div class="max-w-[620px] mx-auto mt-10.5">
                     <div class="max-w-full flex justify-center items-center flex-wrap gap-4">
                         <div class="w-75.5 h-18.5 bg-white rounded-xl p-6.25 flex items-center gap-2.5 shadow-box2 border-1 border-[#9585FF]">
@@ -652,23 +652,23 @@ document.querySelector('#app').innerHTML = `
         </section>
     </main>
     <footer class="max-w-[1424px] bg-primery rounded-3xl px-36 pb-10 pt-30 mb-2 mx-auto relative max-lg:px-24 max-lg:pt-15 max-md:px-8">
-        <img src="./images/bg1.png" class="absolute left-0 top-0 h-full" alt="">
+        <img src="/marketing-landing/images/bg1.png" class="absolute left-0 top-0 h-full" alt="">
         <div class="max-w-[1136px] text-white">
             <div class="max-w-full px-11 pb-18.5 flex justify-center items-center gap-26 max-xl:px-0 max-md:gap-12 max-md:pb-12 max-sm:flex-wrap max-xs:gap-8">
                     <div class="flex items-center flex-col text-center">
-                        <img src="./images/footer1.png" alt="">
+                        <img src="/marketing-landing/images/footer1.png" alt="">
                         <p class="font-bricolage leading-4 mt-9 mb-4.5 max-sm:mt-4">INNOVATION</p>
                         <p class="text-[#878493] leading-5 text-xs max-md:line-clamp-3 ">Lorem ipsum dolor sit amet, consectetur
                           <br>adipiscing elit. Vivamus non enim lacus.</p>
                     </div>
                     <div class="flex items-center flex-col text-center">
-                        <img src="./images/footer2.png" alt="">
+                        <img src="/marketing-landing/images/footer2.png" alt="">
                         <p class="font-bricolage leading-4 mt-9 mb-4.5 max-sm:mt-4">CLOUD SECURE</p>
                         <p class="text-[#878493] leading-5 text-xs max-md:line-clamp-3">Lorem ipsum dolor sit amet, consectetur
                           <br>adipiscing elit. Vivamus non enim lacus.</p>
                     </div>
                     <div class="flex items-center flex-col text-center">
-                        <img src="./images/footer3.png" alt="">
+                        <img src="/marketing-landing/images/footer3.png" alt="">
                         <p class="font-bricolage leading-4 mt-9 mb-4.5 max-sm:mt-4">GROWTH DRIVEN</p>
                         <p class="text-[#878493] leading-5 text-xs max-md:line-clamp-3">Lorem ipsum dolor sit amet, consectetur
                           <br>adipiscing elit. Vivamus non enim lacus.</p>
@@ -698,7 +698,7 @@ document.querySelector('#app').innerHTML = `
             <div class="max-w-[1136px] mt-18.5 max-md:mt-12" >
                 <div class="flex justify-between items-center gap-34.5 mb-20 flex-wrap max-2xl:gap-16">
                         <div>
-                            <img src="./images/linkhome.png" alt="">
+                            <img src="/marketing-landing/images/linkhome.png" alt="">
                             <div class="mt-19 flex items-center gap-3 max-md:mt-12">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M21.4466 9.37377C20.89 9.62001 20.2996 9.78174 19.6952 9.85361C20.332 9.47241 20.8085 8.87272 21.036 8.16627C20.4376 8.52178 19.7827 8.772 19.0996 8.90605C18.5231 8.29097 17.7173 7.9424 16.8742 7.94336C15.1904 7.94336 13.8248 9.30855 13.8248 10.9931C13.8248 11.232 13.8522 11.4638 13.9035 11.6874C11.3681 11.5598 9.12193 10.3464 7.61745 8.50122C7.34657 8.96662 7.20421 9.49564 7.20493 10.0341C7.20493 11.0921 7.74346 12.0259 8.56151 12.5726C8.07725 12.5572 7.60367 12.4265 7.18024 12.191C7.17977 12.2038 7.17977 12.2166 7.17977 12.2287C7.17977 13.7067 8.23098 14.9396 9.62645 15.2195C9.36455 15.2904 9.0944 15.3262 8.82308 15.326C8.62602 15.326 8.43479 15.3078 8.24891 15.2722C8.63721 16.4834 9.76271 17.3653 11.0976 17.3895C10.0174 18.2373 8.68342 18.6973 7.31021 18.6953C7.06717 18.6955 6.82434 18.6812 6.58301 18.6524C7.97712 19.5486 9.59986 20.0243 11.2572 20.0225C16.8668 20.0225 19.934 15.3758 19.934 11.3462C19.934 11.2143 19.9308 11.082 19.9249 10.9516C20.5219 10.5203 21.0372 9.98599 21.4466 9.37377Z" fill="#C8C6D3"/>

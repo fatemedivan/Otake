@@ -4,5 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base : "/admin-pannel/"
+  base : "/marketing-landing/"
 })
